@@ -1,0 +1,172 @@
+.hh-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #d2be82;
+}
+.hh-text1 {
+  fill: transparent;
+  color: #000000;
+  width: auto;
+  height: auto;
+  opacity: 0.5;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: "Arial";
+  font-weight: 400;
+  line-height: 2;
+}
+.hh-mech {
+  width: 279px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hh-link1 {
+  display: contents;
+}
+.hh-mechs {
+  width: 603px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.hh-text2 {
+  width: 403px;
+  height: 167px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hh-text3 {
+  font-family: "Open Sans";
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.hh-hello {
+  display: block;
+  opacity: 0.5;
+  font-style: normal;
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+.hh-ihave-no-idea1 {
+  display: block;
+  opacity: 0.3;
+  font-style: normal;
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 300;
+  text-decoration: line-through;
+}
+.hh-ihave-no-idea2 {
+  display: block;
+  opacity: 0.3;
+  font-style: normal;
+  text-align: center;
+  font-family: "Open Sans";
+  font-weight: 300;
+  text-decoration: line-through;
+}
+.hh-links-big {
+  width: 243px;
+  height: 75px;
+  display: flex;
+  opacity: 0.3;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.hh-link2 {
+  display: contents;
+}
+.hh-link3 {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  text-decoration: none;
+}
+.hh-link4 {
+  display: contents;
+}
+.hh-mail {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  text-decoration: none;
+}
+.hh-link5 {
+  display: contents;
+}
+.hh-instragram {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  text-decoration: none;
+}
+@media(max-width: 767px) {
+  .hh-mechs {
+    width: 732px;
+  }
+  .hh-hello {
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+@media(max-width: 479px) {
+  .hh-mech {
+    width: 377px;
+    height: 123px;
+  }
+  .hh-mechs {
+    width: auto;
+    height: 100%;
+  }
+  .hh-text2 {
+    width: 263px;
+    height: 135px;
+  }
+  .hh-text3 {
+    opacity: 0.9;
+  }
+  .hh-hello {
+    display: block;
+    opacity: 0.7;
+    font-weight: 300;
+  }
+  .hh-ihave-no-idea1 {
+    color: inherit;
+    opacity: 0.5;
+    font-style: normal;
+    font-weight: 200;
+    text-decoration: line-through    none;
+  }
+  .hh-ihave-no-idea2 {
+    font-style: normal;
+    font-weight: 200;
+    text-decoration: line-through;
+  }
+  .hh-links-big {
+    width: 375px;
+    height: 67px;
+    opacity: 0.3;
+  }
+  .hh-link3 {
+    width: auto;
+    height: 100%;
+  }
+  .hh-mail {
+    width: auto;
+    height: 100%;
+  }
+  .hh-instragram {
+    width: auto;
+    height: 100%;
+  }
+}
